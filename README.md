@@ -1,8 +1,8 @@
 # go-cesi 📘
 
-[![GoDoc](https://godoc.org/github.com/xxx/go-cesi?status.svg)](https://godoc.org/github.com/xxx/go-cesi)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xxx/go-cesi)](https://goreportcard.com/report/github.com/xxx/go-cesi)
-[![License](https://img.shields.io/github/license/xxx/go-cesi)]()
+[![GoDoc](https://godoc.org/github.com/mateo08c/go-cesi?status.svg)](https://godoc.org/github.com/github.com/mateo08c/go-cesi)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mateo08c/go-cesi)](https://goreportcard.com/report/github.com/mateo08c/go-cesi)
+[![License](https://img.shields.io/github.com/mateo08c/go-cesi)]()
 
 Une bibliothèque Go pour se connecter et récupérer des informations depuis l'ENT du CESI.
 
@@ -20,7 +20,7 @@ Une bibliothèque Go pour se connecter et récupérer des informations depuis l'
 Pour installer cette bibliothèque, utilisez la commande \`go get\` :
 
 ```bash
-go get github.com/xxx/go-cesi
+go get ggithub.com/mateo08c/go-cesi
 ```
 
 ## Utilisation 🚀
@@ -31,7 +31,7 @@ Voici un exemple d'utilisation de cette bibliothèque :
 package main
 
 import (
-	cesi "github.com/xxx/go-cesi"
+	cesi "github.com/mateo08c/go-cesi"
 	"os"
 )
 
