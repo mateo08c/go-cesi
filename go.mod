@@ -1,4 +1,4 @@
-module go-cesi
+module github.com/mateo08c/go-cesi
 
 go 1.21
 
