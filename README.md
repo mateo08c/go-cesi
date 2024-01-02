@@ -19,7 +19,7 @@ Une bibliothèque Go pour se connecter et récupérer des informations depuis l'
 Pour installer cette bibliothèque, utilisez la commande \`go get\` :
 
 ```bash
-go get ggithub.com/mateo08c/go-cesi
+go get github.com/mateo08c/go-cesi
 ```
 
 ## Utilisation 🚀
@@ -30,7 +30,7 @@ Voici un exemple d'utilisation de cette bibliothèque :
 package main
 
 import (
-	cesi "github.com/mateo08c/go-cesi"
+	"github.com/mateo08c/go-cesi/cesi"
 	"os"
 )
 
