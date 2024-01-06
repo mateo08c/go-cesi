@@ -1,6 +1,7 @@
 package cesi
 
 import (
+	"crypto/tls"
 	"fmt"
 	"github.com/kataras/golog"
 	"io"
@@ -109,6 +110,9 @@ func newHttpClient() *http.Client {
 			return nil
 		},
 		Jar: newCookieJar(),
+		Transport: &http.Transport{
+			TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
+		}
 	}
 }
 
