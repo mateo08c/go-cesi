@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/kataras/golog"
-	"go-cesi/cesi"
+	"github.com/mateo08c/go-cesi/cesi"
 	"os"
 )
 
