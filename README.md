@@ -51,12 +51,12 @@ func main() {
 		println(e.Name)
 	}
 
-	golog.Infof("Session ID: %s", c.User.Session.ID)
-	golog.Infof("Firstname: %s", c.User.FirstName)
-	golog.Infof("Lastname: %s", c.User.LastName)
-	golog.Infof("Email: %s", c.User.Email)
-	golog.Infof("Phone: %s", c.User.Phone)
-	golog.Infof("Promotion: %s", c.User.Promotion)
+	println("Session ID:", c.User.Session.ID)
+	println("Firstname:", c.User.FirstName)
+	println("Lastname:", c.User.LastName)
+	println("Email:", c.User.Email)
+	println("Phone:", c.User.Phone)
+	println("Promotion:", c.User.Promotion)
 }
 
 ```
