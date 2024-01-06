@@ -1,6 +1,6 @@
 # go-cesi 📘
 
-[![GoDoc](https://godoc.org/github.com/mateo08c/go-cesi?status.svg)](https://godoc.org/github.com/github.com/mateo08c/go-cesi)
+[![GoDoc](https://godoc.org/github.com/mateo08c/go-cesi?status.svg)](https://godoc.org/github.com/github.com/mateo08c/go-cesi/cesi)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mateo08c/go-cesi)](https://goreportcard.com/report/github.com/mateo08c/go-cesi)
 
 Une bibliothèque Go pour se connecter et récupérer des informations depuis l'ENT du CESI.
