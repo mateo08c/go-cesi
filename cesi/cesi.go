@@ -112,7 +112,7 @@ func newHttpClient() *http.Client {
 		Jar: newCookieJar(),
 		Transport: &http.Transport{
 			TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
-		}
+		},
 	}
 }
 
