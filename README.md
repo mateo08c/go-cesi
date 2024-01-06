@@ -1,7 +1,9 @@
 # go-cesi 📘
 
+[![Go Version](https://img.shields.io/github/go-mod/go-version/mateo08c/go-cesi?filename=go.mod)](https://golang.org/doc/devel/release.html)
 [![GoDoc](https://godoc.org/github.com/mateo08c/go-cesi?status.svg)](https://godoc.org/github.com/github.com/mateo08c/go-cesi/cesi)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mateo08c/go-cesi)](https://goreportcard.com/report/github.com/mateo08c/go-cesi)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Une bibliothèque Go pour se connecter et récupérer des informations depuis l'ENT du CESI.
 
