@@ -40,7 +40,7 @@ func New(o *Options) *Cesi {
 	}
 
 	if o.UserAgent == "" {
-		o.UserAgent = "Go-CESI (v0.1)"
+		o.UserAgent = "go-cesi v0.1"
 	}
 	c := newHttpClient()
 
