@@ -78,12 +78,16 @@ func (u *User) GetCalendar(start time.Time, end time.Time) (*Calendar, error) {
 	e := end.Format("2006-01-02")
 
 	url := fmt.Sprintf(CalendarURL, s, e, u.ID)
-
+	
 	resp, err := u.cesi.client.Get(url)
 	if err != nil {
 		return nil, err
 	}
 	defer resp.Body.Close()
+
+	if resp.StatusCode == 204 {
+		return &Calendar{}, nil
+	}
 
 	var events []*Event
 	err = json.NewDecoder(resp.Body).Decode(&events)
