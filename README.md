@@ -65,7 +65,9 @@ func main() {
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
 
 ## Disclaimer ⚠️
-La bibliothèque effectue de nombreuses requêtes sur l'ENT du CESI, ce qui pourrait entraîner un blocage temporaire de votre compte si vous effectuez un grand nombre de requêtes en peu de temps. Il est important de noter que je décline toute responsabilité quant à l'utilisation que vous faites de cette bibliothèque.
+La bibliothèque effectue de nombreuses requêtes sur l'ENT du CESI, ce qui pourrait entraîner un blocage temporaire de votre compte si vous effectuez un trop grand nombre de requêtes en peu de temps. 
+
+**Il est important de noter que je décline toute responsabilité quant à l'utilisation que vous faites de cette bibliothèque.**
 
 De plus, il est essentiel de comprendre que cette bibliothèque n'est pas officielle et que je n'ai aucun lien d'affiliation avec le CESI.
 
