@@ -8,10 +8,9 @@
 Une bibliothèque Go pour se connecter et récupérer des informations depuis l'ENT du CESI.
 
 - [X] 🔑 Authentification
-- [X] 👤 Récupération des informations de l'utilisateur
-- [X] 🏫 Récupération des informations des établissements
-- [X] 📓 Récupération des informations des cours
-- [ ] 🔮 Voir mon avenir...
+- [X] 👤 Informations de l'utilisateur
+- [X] 🏫 Informations des établissements
+- [X] 📓 Informations des cours
 
 
 
